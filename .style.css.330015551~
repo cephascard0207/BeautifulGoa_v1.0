@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.container{
+  display:flex;
+  flex-direction: row;
+}
+.con1{
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+.con2{
+  justify-content: flex-end;
+  gap:1em;
+  flex-direction:row;
+}

@@ -1,0 +1,885 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*INDEX - HOME*/
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-image: url("newbg\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+}
+
+
+.con1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+  margin-top: -8px;
+  margin-left: 15px;
+  color: white;
+  font-size: 18px;
+  transition: .50s ease;
+}
+
+.con1 h1 {
+  transition: .50s ease;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.con1 h1:hover {
+  letter-spacing: 0.5px;
+  transition: .50s ease;
+}
+
+.con2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 1em;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.con2 a {
+  color: white;
+  text-decoration: none;
+  transition: .50s ease;
+  font-size: 19px;
+  font-family: 'Belanosima', sans-serif;
+}
+
+.con2 a:hover {
+  transition: .50s ease;
+  text-decoration: line-through;
+}
+
+.item-3 {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  width: 75px;
+  height: 27px;
+  padding-top: 7px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.container2 {
+  display: flex;
+}
+
+.container2 img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.con2_main h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 130px;
+  margin-top: 200px;
+  font-family: 'Belanosima', sans-serif;
+  margin-left: 18px;
+  max-width: 100%;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bu_1 a {
+  background-color: white;
+  color: black;
+  width: 90px;
+  height: 45px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 500;
+  border: 0.5px transparent;
+  border-radius: 10px;
+  margin-left: 18px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.50s ease;
+  font-size: 25px;
+}
+
+.bu_1 a:hover {
+  margin-left: 20px;
+  transition: 0.50s ease;
+}
+
+.hh {
+  font-size: 40px;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e6e6e6;
+}
+
+.container3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.one {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  width: 370px;
+  height: 340px;
+  transition: .50s ease;
+}
+
+.one img {
+  transition: .50s ease;
+}
+
+.one img:hover {
+  transition: .50s ease;
+  cursor: pointer;
+  filter: grayscale(50%);
+}
+
+.one:hover {
+  cursor: pointer;
+}
+
+.one h4 {
+  transition: .50s ease;
+  color: white;
+
+}
+
+.one h4:hover {
+  font-size: 29px;
+  transition: .50s ease;
+  cursor: pointer;
+  color: white;
+}
+
+.one img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  transition: .50s ease;
+}
+
+.one h4 {
+  z-index: 1;
+  margin-top: -60px;
+  color: white;
+  font-size: 28px;
+  transition: .50s ease;
+}
+
+.main-del {
+  background-image: url("https://th.bing.com/th/id/R.072a4c18e303004ad34da73de4956eef?rik=NsvGEn1XXwJ1LQ&riu=http%3a%2f%2fmedia.gttwl.com%2fattachments%2fglobal%2f1391022518_xlarge.jpeg&ehk=jCIZyeipwlgPV%2bULawTlZOJni2rimhrct4L2WUBEbr4%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  width: 100vw;
+  height: 90vh;
+  left: 0px;
+  right: 0px;
+  max-width: 100%;
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  font-size: 70px;
+}
+
+.main-del img {
+  filter: grayscale(5%);
+}
+
+.main-del h2 {
+  padding-top: 140px;
+}
+
+.main-del h6 {
+  font-size: 40px;
+  margin-top: -150px;
+}
+
+.bu_2 {
+  margin-top: -140px;
+}
+
+.bu_2 a {
+  background-color: white;
+  color: black;
+  width: 90px;
+  height: 45px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 500;
+  border: 0.5px transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.50s ease;
+  font-size: 25px;
+  margin-top: -0px;
+}
+
+.bu_2 a:hover {
+  margin-left: 20px;
+  transition: 0.50s ease;
+}
+
+.yt {
+  border-radius: 12px;
+  padding: 7px;
+}
+
+.main-del1 {
+  background-image: url("https://www.aspasios.com/blog/wp-content/uploads/2015/04/liceu.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+  left: 0px;
+  right: 0px;
+  max-width: 100%;
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  font-size: 70px;
+}
+
+.main-del1 h2 {
+  padding-top: 140px;
+}
+
+.main-del1 h6 {
+  font-size: 40px;
+  margin-top: -150px;
+}
+
+.two img {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  width: 370px;
+  height: 340px;
+  transition: .50s ease;
+  max-width: 100%;
+}
+
+.hh2 a {
+  font-size: 27px;
+  text-decoration: none;
+  font-family: 'Belanosima', sans-serif;
+  color: black;
+}
+
+.main-del3 {
+  background-image: url("https://th.bing.com/th/id/R.580e1497207009e954218169f5779d3c?rik=P%2feMRI%2fK0uCmew&riu=http%3a%2f%2fassets.serenity.co.uk%2f47000-47999%2f47967%2f1296x864.jpg&ehk=DAF%2fXdi%2b43d5ag7waY9kFpKT5GgLfh1Fyh8vedJCUi4%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+  left: 0px;
+  right: 0px;
+  max-width: 100%;
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  font-size: 70px;
+}
+
+.main-del3 h2 {
+  padding-top: 140px;
+}
+
+.main-del3 h6 {
+  font-size: 40px;
+  margin-top: -150px;
+}
+
+.hh2 a {
+  transition: .50s ease;
+}
+
+.hh2 a:hover {
+  letter-spacing: 1px;
+  transition: .50s ease;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.foot h2 {
+  padding-left: 20px;
+  float: left;
+}
+
+.foot h4 {
+  float: right;
+  margin-right: -820px;
+  font-family: 'Belanosima', sans-serif;
+}
+
+
+
+/*HOTEL*/
+.hotelbody {
+  background-image: url("hotel.png");
+}
+
+.con4_main h1 {
+  margin-top: 160px;
+  margin-left: 30px;
+  text-align: left;
+  color: white;
+  font-size: 240px;
+}
+
+.bu_3 {
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 500;
+  margin-top: -200px;
+  margin-left: 50px;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+.enterbody {
+  background-image: url("https://www.celebritycruises.com/content/dam/celebrity/new-images/entertainment-gallery-amade-3840x2160.jpg");
+}
+
+.con5_main h1 {
+  margin-top: 180px;
+  margin-left: 30px;
+  text-align: left;
+  color: white;
+  font-size: 150px;
+}
+
+.bu_4 {
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 500;
+  margin-top: -110px;
+  margin-left: 50px;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+
+/*ENTERTAINMENT*/
+.content h1 {
+  font-size: 54px;
+  padding-top: 30px;
+  padding-left: 18px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.content iframe {
+  margin-left: 18px;
+  margin-bottom: 19px;
+  border-radius: 8px;
+  height: 235;
+  width: 380;
+  transition: .50s ease;
+}
+
+.content iframe:hover {
+  transition: .50s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  cursor: pointer;
+}
+
+.content h5 a {
+  font-family: 'Belanosima', sans-serif;
+  font-size: 17px;
+  float: right;
+  margin-right: 15px;
+  margin-top: -65px;
+  transition: .50s ease;
+  text-decoration: none;
+  color: black;
+}
+
+.content h5 a:hover {
+  cursor: pointer;
+  letter-spacing: .3px;
+  transition: .50s ease;
+}
+
+.mm_mov {
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  transition: .50s ease;
+}
+
+.mm_mov:hover {
+  transition: .50s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  cursor: pointer;
+}
+
+/*BLOG*/
+.blogbody {
+  background-image: url("blogpp.png");
+}
+
+.con6_main h1 {
+  margin-top: 170px;
+  margin-left: 30px;
+  text-align: left;
+  color: white;
+  font-size: 180px;
+}
+
+.bu_5 {
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 500;
+  margin-top: -108px;
+  margin-left: 42px;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.blogcon {
+  margin: 10px;
+  display: flex;
+}
+
+.blogcon h2 a {
+  margin-left: 30px;
+  padding: 18px;
+  height: 70px;
+  width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  transition: .50s ease;
+  text-decoration: none;
+  color: black;
+}
+
+/*HOTEL*/
+#hotelmain {
+  width: 100%;
+  background-color: #ededed;
+  border-radius: 20px;
+}
+
+#inputmainh {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(1.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border-radius: 18px;
+  transition: 0.50s ease;
+}
+
+#inputmainh:hover {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(1.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  transition: 0.50s ease;
+}
+
+#one {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 60px;
+  border: none;
+  width: 510px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+#two {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 10px;
+  border: none;
+  width: 140px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+#three {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 5px;
+  border: none;
+  width: 140px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+#hotelmain2 {
+  width: 80%;
+  border: 0.5px solid gray;
+  border-radius: 18px;
+  transition: 1.50 ease-in;
+}
+
+#hotelmain2:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  cursor: pointer;
+  transition: 1.50 ease-in;
+}
+
+#cont1 img {
+  width: 380px;
+  height: 280px;
+  margin-left: -590px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#cont1 h2 {
+  margin-top: -260px;
+  margin-right: -290px;
+  font-size: 30px;
+}
+
+#cont1 h6 {
+  margin-left: 400px;
+  margin-right: 30px;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#cont1 h1 {
+  margin-left: 370px;
+  margin-top: 27px;
+  text-align: center;
+  color: red;
+}
+
+#button {
+  border: none;
+  border-radius: 12;
+  color: white;
+  background-color: #000000;
+  width: 100px;
+  height: 38px;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: 0.50s ease;
+}
+
+#button:hover {
+  background-color: #383838;
+  transition: 0.50s ease;
+  cursor: pointer;
+}
+
+/*Flight*/
+.flightbody {
+  background-image: url("https://wordpress-network.prod.aws.skyscnr.com/wp-content/uploads/2018/05/rsz_plane_flight_fly_travel_shutterstock_128469755.jpg");
+}
+
+#inputmainh h5 {
+  margin-left: 20px;
+  margin-right: -30px;
+}
+
+#colbut {
+  border: none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  color: white;
+  background-color: #000352;
+  width: 170px;
+  height: 38px;
+  font-size: 18px;
+  margin-left: 70px;
+  transition: 0.50s ease;
+}
+
+#colbut1 {
+  border: none;
+  color: white;
+  background-color: #000352;
+  width: 170px;
+  height: 38px;
+  font-size: 18px;
+  margin-left: -3px;
+  transition: 0.50s ease;
+  margin-bottom: 50px;
+}
+
+#colbut2 {
+  border: none;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: white;
+  background-color: #000352;
+  width: 170px;
+  height: 38px;
+  font-size: 18px;
+  transition: 0.50s ease;
+  margin-left: -3px;
+}
+
+#colbut:hover {
+  background-color: #00023d;
+  transition: 0.50s ease;
+  cursor: pointer;
+}
+
+#colbut:active {
+  background-color: #000000;
+}
+
+#colbut1:hover {
+  background-color: #00023d;
+  transition: 0.50s ease;
+  cursor: pointer;
+}
+
+#colbut1:active {
+  background-color: #000000;
+
+}
+
+#colbut2:hover {
+  background-color: #00023d;
+  transition: 0.50s ease;
+  cursor: pointer;
+}
+
+#colbut2:active {
+  background-color: #000000;
+
+}
+
+#local {
+  transition: 0.50 ease;
+}
+
+#local img {
+  margin-left: 35px;
+  width: 310px;
+  height: 130px;
+  transition: 0.50 ease;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+#local img:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  cursor: pointer;
+  transition: 0.50 ease;
+}
+
+/*EXPLORE*/
+#oneo {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 0px;
+  border: none;
+  width: 510px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.exbody {
+  background-image: url("https://wallup.net/wp-content/uploads/2019/10/919413-india-scenery-sunrises-and-sunsets-rivers-shrubs-branches-bambolim-beach-goa-nature.jpg");
+}
+
+.click {
+  display: inline-flex;
+}
+
+#home {
+  background-color: #1254d9;
+  color: white;
+  padding: 9px;
+  margin-left: 30px;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  border-radius: 4px;
+  transition: .50s ease;
+}
+
+#click a {
+  text-decoration: none;
+}
+
+#home:hover {
+  background-color: #073797;
+  transition: .50s ease;
+  cursor: pointer;
+}
+
+.items {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+.items div {
+  width: 210px;
+  height: 80px;
+  padding: 22px;
+  padding-top: 40px;
+  font-size: 45px;
+  margin-left: 35px;
+  border-radius: 14px;
+  border: none;
+  transition: 0.50 ease;
+  font-family: 'Belanosima', sans-serif;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+}
+
+.items div a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Belanosima', sans-serif;
+}
+
+.items div:hover {
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  cursor: pointer;
+  transition: 0.50 ease;
+  border: none;
+}
+
+/*LEGALITIES*/
+.legalbody {
+  background-image: url("https://www.sanjosebusinesslawyersblog.com/files/2018/03/Contract-Signing.jpg");
+}
+
+#contentlegal h1 {
+  margin-left: 25px;
+  padding-top: 30px;
+
+}
+
+#contentlegal {
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+}
+
+#contentlegal h5 {
+  display: inline-flex;
+  font-size: 20px;
+  text-transform: Uppercase;
+  padding-left: 20px;
+  margin-top: -15px;
+}
+
+#contentlegal h6 {
+  padding-left: 28px;
+  text-transform: uppercase;
+}
+
+#clcon h5 {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 25px;
+  font-weight: 100;
+}
+
+/*MAP*/
+.mapbody{
+  background-image: url("https://th.bing.com/th/id/R.435a4ca108ddaa3e641cb016174f8f09?rik=fsJU4ZE7XAGeAw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1891433.jpg&ehk=erm4S3u4oqpXuFo6EKJPGAMRLcv7xkGXTOqJ6AMwQ2M%3d&risl=&pid=ImgRaw&r=0");
+}
+/*TOP5HOTELBLOG*/
+.topbody{
+  background-image: url("https://media.architecturaldigest.com/photos/57e42deafe422b3e29b7e790/master/pass/JW_LosCabos_2015_MainExterior.jpg");
+}
