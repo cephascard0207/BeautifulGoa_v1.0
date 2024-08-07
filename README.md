@@ -27,7 +27,7 @@
 ## Getting Started
 1. Clone the repository:
     ```sh
-    git clone https://github.com/cephascard0207/BeautifulGoa.git
+    git clone https://github.com/cephascard0207/BeautifulGoav_1.0.git
     ```
 2. Open `index.html` in your browser to explore the website.
 
@@ -42,5 +42,5 @@ For any questions or feedback, feel free to reach out.
 
 Check out the repository and start planning your dream vacation to Goa! 🌟
 
-🔗 [BeautifulGoa on GitHub](https://github.com/cephascard0207/BeautifulGoa)
+🔗 [BeautifulGoa on LinkedIn Projects](https://www.linkedin.com/in/cephas-cardozo/details/projects/)
 
