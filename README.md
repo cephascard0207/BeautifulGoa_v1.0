@@ -26,7 +26,7 @@
 ## Getting Started
 1. Clone the repository:
     ```sh
-    git clone https://github.com/cephascard0207/BeautifulGoav_1.0.git
+    git clone https://github.com/cephascard0207/BeautifulGoa_v1.0.git
     ```
 2. Open `index.html` in your browser to explore the website.
 
