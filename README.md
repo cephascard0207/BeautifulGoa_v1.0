@@ -17,7 +17,12 @@
 
 ## Website Mockups
 <img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-04%20114257.png?raw=true"/>
-
+<img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-07%20143403.png"/>
+<img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-07%20143443.png"/>
+<img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-07%20143509.png"/>
+<img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-07%20143537.png"/>
+<img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-07%20143537.png"/>
+<img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-07%20143633.png"/>
 
 ## Getting Started
 1. Clone the repository:
