@@ -13,7 +13,7 @@
 
 ## Versions:
 - **Version 1**: Initial release.
-- **Version 1.1**: Upcoming with more updates!
+- **Version 1.1**: Upcoming with more updates! (New Repository will be initialized)
 
 ## Website Mockups
 <img src="https://github.com/cephascard0207/BeautifulGoa_v1.0/blob/main/Screenshot%202024-08-04%20114257.png?raw=true"/>
