@@ -1,301 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeautifulGoa. | Home</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/bg-removebg-preview.png" />
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #00C9FF, #92FE9D);
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background: rgba(255, 255, 255, 0.3);
-            backdrop-filter: blur(10px);
-            border-radius: 10px;
-            margin-top: 10px;
-        }
-
-        .container h1 {
-            font-size: 1.5rem;
-            margin: 0;
-        }
-
-        .con2 {
-            display: flex;
-            gap: 15px;
-        }
-
-        .con2 .item {
-            font-size: 1rem;
-            color: #fff;
-        }
-
-        .con2 .item a {
-            text-decoration: none;
-            color: #fff;
-            padding: 5px 10px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        .con2 .item a:hover {
-            background-color: #92FE9D;
-            color: #000;
-        }
-
-        .container2 {
-            text-align: center;
-            padding: 50px 20px;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            margin: 20px;
-            border-radius: 10px;
-        }
-
-        .container2 h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-
-        .bu_1 a {
-            font-size: 1.2rem;
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px 20px;
-            border-radius: 50px;
-            text-decoration: none;
-            transition: background 0.3s;
-        }
-
-        .bu_1 a:hover {
-            background-color: #92FE9D;
-            color: #000;
-        }
-
-        .container3 {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .one,
-        .two {
-            text-align: center;
-            flex: 1 1 200px;
-            max-width: 200px;
-        }
-
-        .one img,
-        .two img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .hh2 a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .main-del,
-        .main-del1,
-        .main-del3 {
-            text-align: center;
-            padding: 50px 20px;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            margin: 20px;
-            border-radius: 10px;
-        }
-
-        .main-del h2,
-        .main-del1 h2,
-        .main-del3 h2 {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-
-        .main-del h6,
-        .main-del1 h6,
-        .main-del3 h6 {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-        }
-
-        .yt {
-            width: 100%;
-            max-width: 580px;
-            height: auto;
-        }
-
-        .foot {
-            text-align: center;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            color: #fff;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .container h1 {
-                font-size: 1.2rem;
-            }
-
-            .con2 {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 10px;
-            }
-
-            .container2 h1 {
-                font-size: 2rem;
-            }
-
-            .bu_1 a {
-                font-size: 1rem;
-                padding: 8px 16px;
-            }
-
-            .main-del h2,
-            .main-del1 h2,
-            .main-del3 h2 {
-                font-size: 1.5rem;
-            }
-
-            .main-del h6,
-            .main-del1 h6,
-            .main-del3 h6 {
-                font-size: 1rem;
-            }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BeautifulGoa. | Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="/bg-removebg-preview.png"/>
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <div class="container" id="container">
-        <div class="con1">
-            <h1>BeautifulGoa.</h1>
-        </div>
-        <div class="con2">
-            <div class="item item-1"><a href="index.html">Home</a></div>
-            <div class="item item-2"><a href="blog.html">Blog</a></div>
-            <div class="item item-2"><a href="hotel.html">Find Hotels</a></div>
-            <div class="item item-2"><a href="flight.html">Book Flights</a></div>
-            <div class="item item-2"><a href="entertainment.html">Entertainment</a></div>
-            <div class="item-3"><a href="explore.html">Explore</a></div>
-        </div>
+  <!--navbar-->
+  <div class="container" id="container">
+    <div class="con1">
+      <h1>BeautifulGoa.</h1>
+    </div>  
+
+
+    <div class="con2">
+      <div class="item item-1"><a href="index.html">Home</a></div>
+      <div class="item item-2"><a href="blog.html">Blog</a></div>
+      <div class="item item-2"><a href="hotel.html">Find Hotels</a></div>
+      <div class="item item-2"><a href="flight.html">Book Flights</a></div>
+      <div class="item item-2"><a href="entertainment.html">Entertainment</a></div>
+      <div class="item-3"><a href="explore.html">Explore</a></div>
     </div>
+  </div>
 
-    <!-- Main Content -->
-    <div class="container2">
-        <h1>Unraveling Beauty.</h1>
-        <div class="bu_1"><a href="flight.html">Book Flight Tickets to Goa <span>&gt;</span></a></div>
+  <!--main-->
+  <div class="container2">
+    <div class="con2_main">
+      <h1>Unraveling Beauty.</h1>
+      <br>
+      <div class="bu_1"><a href="flight.html">Book Flight Tickets to Goa <span style="font-family: 'Belanosima', sans-serif;"> ></span></a></div>
     </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br>
 
-    <!-- Popular Beaches -->
-    <center>
-        <div class="con3_main">
-            <h2 class="hh">Popular <span style="text-decoration: underline;">Beaches</span> in Goa</h2>
-        </div>
-        <div class="container3">
-            <div class="one">
-                <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/610a641ba90652ac4139dc27_Morjim%20Beach%2C%20India_result.jpg">
-                <h4>Morjim Beach</h4>
-            </div>
-
-            <div class="one">
-                <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5c0e6aae9a147983bef0fd2f_beachs%20in%20goa.jpg">
-                <h4>Ashwem Beach</h4>
-            </div>
-
-            <div class="one">
-                <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/610a63945e4d1e50012ae0eb_Candolim%20beach%2C%20Goa_result.jpg">
-                <h4>Candolem Beach</h4>
-            </div>
+<center>
+    <div class="con3_main">
+          <h2 class="hh">Popular <span style="text-decoration: underline;">Beaches</span> in Goa</h2>
+    </div>
+<br><br>
+    <div class="container3">
+        <div class="one">
+          <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/610a641ba90652ac4139dc27_Morjim%20Beach%2C%20India_result.jpg" width="60px" height="50px">
+           <br>
+          <h4>Morjim Beach</h4>
         </div>
 
-        <div class="container3">
-            <div class="one">
-                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5a/c8/e1/colva-beach.jpg?w=1100&h=-1&s=1">
-                <h4>Colva Beach</h4>
-            </div>
-
-            <div class="one">
-                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/8e/fc/81/a-walk-through-calangute.jpg?w=2000&h=-1&s=1">
-                <h4>Calangute Beach</h4>
-            </div>
-
-            <div class="one">
-                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/e5/03/bd/img-20181104-094252-largejpg.jpg?w=1000&h=-1&s=1">
-                <h4>Vagator Beach</h4>
-            </div>
+        <div class="one">
+          <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5c0e6aae9a147983bef0fd2f_beachs%20in%20goa.jpg" width="60px" height="50px">
+           <br>
+          <h4>Ashwem Beach</h4>
         </div>
-    </center>
 
-    <!-- Dining Section -->
-    <div class="main-del">
-        <h2>Beautiful Dining Restaurants.</h2>
-        <h6>Goa offers a wide range of culinary experiences, from traditional Goan cuisine to international dishes in elegant settings.</h6>
-        <div class="container3">
-            <div class="two">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/77/3b/8b/img-20181105-145957-775.jpg">
-                <h4>The Fisherman's Wharf</h4>
-            </div>
-
-            <div class="two">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/77/39/94/img-20181105-144515-552.jpg">
-                <h4>Martin's Corner</h4>
-            </div>
-
-            <div class="two">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/77/39/94/img-20181105-144515-552.jpg">
-                <h4>Cafe Chocolatti</h4>
-            </div>
+        <div class="one">
+          <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/610a63945e4d1e50012ae0eb_Candolim%20beach%2C%20Goa_result.jpg" width="60px" height="50px">
+           <br>
+          <h4>Candolem Beach</h4>
         </div>
-    </div>
+        </div>
+</div>
 
-    <!-- Entertainment Section -->
-    <div class="main-del1">
-        <h2>Exciting Entertainment Events.</h2>
-        <h6>From beach parties to cultural festivals, Goa is a hub of entertainment that suits every taste.</h6>
-        <iframe class="yt" src="https://www.youtube.com/embed/TbPbJ0bOwj4" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
+  
+  <br><br>
+      <div class="container3">
+        <div class="one">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5a/c8/e1/colva-beach.jpg?w=1100&h=-1&s=1" width="60px" height="50px">
+           <br>
+          <h4>Colva Beach</h4>
+        </div>
 
-    <!-- Hotels Section -->
-    <div class="main-del3">
-        <h2>Luxurious Stay.</h2>
-        <h6>Find the best hotels and accommodations that offer comfort and luxury in the heart of Goa.</h6>
-        <div class="bu_1"><a href="hotel.html">Book Now <span>&gt;</span></a></div>
-    </div>
+        <div class="one">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/8e/fc/81/a-walk-through-calangute.jpg?w=2000&h=-1&s=1" width="60px" height="50px">
+           <br>
+          <h4>Calangute Beach</h4>
+        </div>
 
-    <!-- Footer -->
-    <div class="foot">
-        <h4>BeautifulGoa.</h4>
-        <p>&copy; 2023 BeautifulGoa. All Rights Reserved.</p>
+        <div class="one">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/e5/03/bd/img-20181104-094252-largejpg.jpg?w=1000&h=-1&s=1" width="60px" height="50px">
+           <br>
+          <h4>Vagator Beach</h4>
+        </div>
+        </div>
+</div>
+
+  <br><br><br>  <br><br><br>
+<div class="main-del">
+  <h2>Beautiful Dining</h2><br>
+  <h6>Multi-Cuisine</h6><br>
+  <div class="bu_2"><a href="dining.html">Explore Dining Options <span style="font-family: 'Belanosima', sans-serif;"> ></span></a></div>
+</div>
+
+  
+    <br><br><br>  <br><br><br> 
+
+<div>
+  <h2 class="hh">Famous Vloggers <span style="text-decoration:underline;">Exploring Goa</span></h2><br>
+  <iframe class="yt" width="580" height="335" src="https://www.youtube.com/embed/MSI4gkPS8hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe class="yt" width="580" height="335" src="https://www.youtube.com/embed/3IvLMv3Sa3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe class="yt" width="580" height="335" src="https://www.youtube.com/embed/8d97awZhvhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe class="yt" width="580" height="335" src="https://www.youtube.com/embed/m2MfLXbnCC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+      <br><br><br>  <br><br><br> 
+
+
+<div class="main-del1">
+  <h2>Entertainment</h2><br>
+  <h6>Goan Musical & Drama</h6><br>
+  <div class="bu_2"><a href="entertainment.html">Get Entertained <span style="font-family: 'Belanosima', sans-serif;"> ></span></a></div>
+</div>
+
+    <br><br><br><br><br>
+ <div class="con3_main">
+          <h2 class="hh">Famous <span style="text-decoration:underline;">Goan Celebrities</span></h2><br><br>
     </div>
+<br><br>
+    <div class="container3">
+        <div class="two">
+          <img src="https://gumlet.assettype.com/dainikgomantak/2022-07/633a2a9f-ccc6-4362-9d05-ad778d1d1845/Selvy.PNG?w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true" width="60px" height="50px" style="border-radius:360px;">
+           <br>
+          <h4 class="hh2"><a href="https://en.wikipedia.org/wiki/Comedian_Selvy" style="text-decoration:none;">Matheus Correia <small>aka</small> Selvy</a></h4>
+        </div>
+
+        <div class="two">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tomazinho_Cardozo%2C_Konkani_%28tiatr%29_playwright%2C_educationist%2C_writer%2C_politician._Goa_%28cropped%29.JPG/330px-Tomazinho_Cardozo%2C_Konkani_%28tiatr%29_playwright%2C_educationist%2C_writer%2C_politician._Goa_%28cropped%29.JPG" width="60px" height="50px" style="border-radius:360px;">
+           <br>
+          <h4 class="hh2"><a href="https://en.wikipedia.org/wiki/Tomazinho_Cardozo" style="text-decoration:none;">Tomazinho Cardozo</a></h4>
+        </div>
+
+        <div class="two">
+          <img src="https://th.bing.com/th/id/R.683d6896c6521a8a101a96c69a4cba43?rik=Cczgq%2bA8xMqLZw&riu=http%3a%2f%2fimages.indianexpress.com%2f2015%2f05%2florna1.jpg&ehk=d%2f3%2fhiBQ3lcJOCA59moHu5k2QUXvSmY9T9b1u3XdPmA%3d&risl=&pid=ImgRaw&r=0" width="60px" height="50px" style="border-radius:360px;">
+           <br>
+          <h4 class="hh2"><a href="https://en.wikipedia.org/wiki/Lorna_Cordeiro" style="text-decoration:none;">Lorna Codeiro <small>aka</small> Nightingale</a></h4>
+        </div>
+</div>
+  <br><br><br>
+      <div class="container3">
+        <div class="two">
+          <img src="https://i0.wp.com/www.incrediblegoa.org/wp-content/uploads/2020/02/John-DSilva-1.jpg?fit=1200%2C761&ssl=1" width="60px" height="50px" style="border-radius:360px;">
+           <br>
+          <h4 class="hh2"><a href="https://en.wikipedia.org/wiki/John_D%27Silva" style="text-decoration:none;">John Dsilva</a></h4>
+        </div>
+
+        <div class="two">
+          <img src="https://th.bing.com/th/id/OIP.xo6eYN8cbqj_SOZKzasM3wHaHa?pid=ImgDet&rs=1" width="60px" height="50px" style="border-radius:360px;">
+           <br>
+          <h4 class="hh2"><a href="https://en.wikipedia.org/wiki/Tomazinho_Cardozo" style="text-decoration:none;">Lata Mangeshkar</a></h4>
+        </div>
+
+        <div class="two">
+          <img src="https://sortitoutsi.net/uploads/media/60sKIEjRvekfqBg1eDsUWiJWxlqpIHkMzalC6RO7.jpeg" width="60px" height="50px" style="border-radius:360px;">
+           <br>
+          <h4 class="hh2"><a href="https://en.wikipedia.org/wiki/Leander_D%27Cunha" style="text-decoration:none;">Leander Dcunha </a></h4>
+        </div>
+</div>
+      <br><br><br><br><br>      <br><br><br>
+
+  <div class="main-del3">
+  <h2>Book a Hotel</h2><br>
+  <h6>Peaceful Staycations in Goa</h6><br>
+  <div class="bu_2"><a href="hotel.html">Check Hotel Availability<span style="font-family: 'Belanosima', sans-serif;"> ></span></a></div>
+</div>
+  </center>
+
+
+    <br><br><br><br><br>      <br><br><br>
+<footer>
+  <div class="foot">
+      <h2>Created by Cephas Cardozo</h2>
+      <h4>&copy; BeautifulGoa. 2023</h4>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  
 </body>
-
 </html>
+
